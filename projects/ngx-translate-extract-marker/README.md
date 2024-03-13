@@ -30,4 +30,5 @@ See [ngx-translate-extract](https://github.com/vendure-ecommerce/ngx-translate-e
 
 ## Credits
 Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️
+
 Update to modern Angular: [@colsen1991/ngx-translate-extract-marker](https://github.com/Husbanken/ngx-translate-extract-marker)
