@@ -1,5 +1,5 @@
 {
-  "name": "@vandres/ngx-translate-extract-marker",
+  "name": "codeandweb/ngx-translate-extract-marker",
   "description": "Function to manually mark strings to be extracted using ngx-translate-extract",
   "version": "3.0.0",
   "engines": {
@@ -11,18 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vandres/ngx-translate-extract-marker.git"
+    "url": "https://github.com/codeandweb/ngx-translate-extract-marker.git"
   },
   "author": "Kim Biesbjerg <kim@biesbjerg.com>",
   "maintainers": [
-    "Christer Olsen <colsen1991@gmail.com>",
-    "Volker Andres <andres@voan.ch>"
+    "Andreas Löw <andreas@codeandweb.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vandres/ngx-translate-extract-marker/issues"
+    "url": "https://github.com/codeandweb/ngx-translate-extract-marker/issues"
   },
-  "homepage": "https://github.com/vandres/ngx-translate-extract-marker",
+  "homepage": "https://ngx-translate.org/resources/plugins/",
   "keywords": [
     "angular",
     "ngx-translate",

@@ -2,7 +2,7 @@
 This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed
 
 ## Installation
-`$ npm install @vandres/ngx-translate-extract-marker`
+`$ npm install codeandweb/ngx-translate-extract-marker`
 
 ## Mark strings for extraction using the marker function
 If, for some reason, you want to extract strings not passed directly to `ngx-translate/TranslateService`'s `get()`, `instant()` or `stream()` methods, you can wrap them in a custom marker function to let `ngx-translate-extract` know you want to extract them.
@@ -10,7 +10,7 @@ If, for some reason, you want to extract strings not passed directly to `ngx-tra
 Import and use the marker function:
 
 ```ts
-import { marker } from '@vandres/ngx-translate-extract-marker';
+import { marker } from 'codeandweb/ngx-translate-extract-marker';
 
 marker('Extract me', 'Giving optional context');
 ```
@@ -18,7 +18,7 @@ marker('Extract me', 'Giving optional context');
 Or you can alias the `marker()` method:
 
 ```ts
-import { marker as _ } from '@vandres/ngx-translate-extract-marker';
+import { marker as _ } from 'codeandweb/ngx-translate-extract-marker';
 
 _('Extract me', 'Giving optional context');
 ```
