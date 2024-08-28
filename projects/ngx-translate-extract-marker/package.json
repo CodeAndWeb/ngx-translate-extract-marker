@@ -1,7 +1,7 @@
 {
-  "name": "codeandweb/ngx-translate-extract-marker",
-  "description": "Function to manually mark strings to be extracted using ngx-translate-extract",
-  "version": "3.0.0",
+  "name": "@codeandweb/ngx-translate-extract-marker",
+  "description": "Function to manually mark strings to be extracted using ngx-translate-extract and BabelEdit",
+  "version": "3.0.1",
   "engines": {
     "node": ">=16",
     "npm": ">=8"

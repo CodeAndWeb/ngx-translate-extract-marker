@@ -2,7 +2,7 @@
 This is a fork of a great library by [Kim Biesbjerg](https://github.com/biesbjerg), but as far as I can tell the original library is unfortunately no longer being developed
 
 ## Installation
-`$ npm install codeandweb/ngx-translate-extract-marker`
+`$ npm install @codeandweb/ngx-translate-extract-marker`
 
 ## Mark strings for extraction using the marker function
 If, for some reason, you want to extract strings not passed directly to `ngx-translate/TranslateService`'s `get()`, `instant()` or `stream()` methods, you can wrap them in a custom marker function to let `ngx-translate-extract` know you want to extract them.
@@ -10,7 +10,7 @@ If, for some reason, you want to extract strings not passed directly to `ngx-tra
 Import and use the marker function:
 
 ```ts
-import { marker } from 'codeandweb/ngx-translate-extract-marker';
+import { marker } from '@codeandweb/ngx-translate-extract-marker';
 
 marker('Extract me', 'Giving optional context');
 ```
@@ -18,15 +18,26 @@ marker('Extract me', 'Giving optional context');
 Or you can alias the `marker()` method:
 
 ```ts
-import { marker as _ } from 'codeandweb/ngx-translate-extract-marker';
+import { marker as _ } from '@codeandweb/ngx-translate-extract-marker';
 
 _('Extract me', 'Giving optional context');
 ```
 
+## Extracting IDs 
+
+### With ngx-translate-extraxct
+
 Then run the extract script: `$ ngx-translate-extract`
 
-## ngx-translate-extract
 See [ngx-translate-extract](https://github.com/vendure-ecommerce/ngx-translate-extract) and [ngx-translate](https://github.com/ngx-translate/core) for more details.
+
+
+### With BabelEdit
+
+[BabelEdit](https://www.codeandweb.com/babeledit) is a translation editor that works perfectly with ngx-translate.
+Learn more about it in this tutorial: [How to translate your Angular app with ngx-translate](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular-app-with-ngx-translate)
+
+
 
 ## Credits
 Original library, idea and code: [@biesbjerg/ngx-translate-extract-marker](https://github.com/biesbjerg/ngx-translate-extract-marker) ❤️
